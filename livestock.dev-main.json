@@ -1,0 +1,25 @@
+{
+  "manifests": {
+    "agtrac/livestock": {
+      "manifest": {
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%/"
+        }
+      },
+      "files": {
+        "config/packages/livestock.yaml": {
+          "contents": [
+            "doctrine:",
+            "    orm:",
+            "        mappings:",
+            "            Agtrac\\Livestock\\Entity:",
+            "                is_bundle: false",
+            "                dir: '%kernel.project_dir%/vendor/agtrac/livestock/src/Entity'",
+            "                prefix: 'Agtrac\\Livestock\\Entity"
+          ]
+        }
+      },
+      "ref": "c18269f9d84a58071d118431fa51debbe425b9cb"
+    }
+  }
+}

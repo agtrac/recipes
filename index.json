@@ -1,0 +1,18 @@
+{
+  "aliases": {
+    "livestock": "agtrac/livestock",
+    "agtrac-livestock": "agtrac/livestock"
+  },
+  "recipes": {
+    "agtrac/livestock": [
+      "dev-main"
+    ]
+  },
+  "branch": "main",
+  "is_contrib": true,
+  "_links": {
+    "repository": "github.com/agtrac/recipes",
+    "origin_template": "{package}:{version}@github.com/agtrac/recipes:main",
+    "recipe_template": "https://api.github.com/repos/agtrac/recipes/contents/{package_dotted}.{version}.json"
+  }
+}
